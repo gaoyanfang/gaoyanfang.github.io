@@ -1,0 +1,41 @@
+.header {
+	position: absolute;
+	background: #ffffff;
+	top: 0%;
+	left: 0%;
+	width: 60px;
+	height: 100%;
+	box-shadow:0px 0px 10px #cccccc;
+	margin: 0px;
+    padding: 10px 10px;/*内边距*/
+}
+
+
+.main {
+	position: absolute;
+	background: #ffffff;
+	top: 15%;
+	bottom: 10%;
+	left: 25%;
+	right: 25%;
+	border-radius: 10px;
+	box-shadow:0px 0px 9px #cccccc;
+    padding: 10px 30px;/*内边距*/
+    /*overflow:hidden;*/
+    overflow-y:auto;
+    word-wrap:break-word;截断一行文字，默认按词截断
+    word-break:break-all;不按词截断一行文字
+
+
+}
+
+.left {
+	#background: #c7c7c7;
+    padding: 10px 30px;/*内边距*/
+}
+
+
+::selection {
+    background: #999999;
+    color: #ffffff;
+}
